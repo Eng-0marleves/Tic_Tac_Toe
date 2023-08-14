@@ -27,7 +27,7 @@ class Execute:
 			for i in range(n - pattern_len + 1):
 				column_pattern = [matrix[i+k][j] for k in range(pattern_len)]
 				if column_pattern == ['X', 'X', 'X'] or column_pattern == ['O', 'O', 'O']:
-					return True
+					return "win"
 
 		# Check diagonals (top-left to bottom-right)
 		for row in range(n - 2):
