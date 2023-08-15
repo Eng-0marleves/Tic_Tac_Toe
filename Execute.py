@@ -93,7 +93,7 @@ class Execute:
 				print("=" * 30)
 				print("\n \n")
 				break
-			elif Execute.checker(draw.matrix) == "balance":
+			elif Execute.checker(draw.matrix) == "draw":
 				print("=" * 30)
 				print("Balance, All squares occupied")
 				print("=" * 30)
@@ -112,7 +112,7 @@ class Execute:
 				print("=" * 30)
 				print("\n \n")
 				break
-			elif Execute.checker(draw.matrix) == "balance":
+			elif Execute.checker(draw.matrix) == "draw":
 				print("=" * 30)
 				print("Balance, All squares occupied")
 				print("=" * 30)
